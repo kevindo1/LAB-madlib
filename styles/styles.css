@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {        
     font-family: 'Titillium Web', sans-serif;
     background-color: #FFFCFA;
@@ -8,6 +8,8 @@ body {
 
 main {
     padding: 30px;
+    background-image: url("../assets/whos_that_pokemon.png");
+    background-repeat: no-repeat;
 }
 
 header {
@@ -38,3 +40,12 @@ footer {
     display: none;
 }
 
+#hidden2 {
+    
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    width: 700px;
+}
