@@ -24,6 +24,8 @@ const noun4Output = document.getElementById('noun-4');
 const hidden = document.getElementById('hidden');
 const inputPage = document.getElementById('input-page');
 
+const theme = document.getElementById('theme');
+
     // set event listeners
 submitButton.addEventListener('click', () => {
     // get user input(s)
@@ -64,4 +66,5 @@ submitButton.addEventListener('click', () => {
     
     hidden.style.display = 'block'; 
     inputPage.style.display = 'none';
+    theme.play();
 });
